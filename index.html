@@ -62,7 +62,7 @@
         </div>
     </main>
 
-    <footer class="flex-center">
+    <footer>
         <p>Here at Bryant Bullies once customers purchase a dog, all sales are final, and you must
             sign a
             contract before
@@ -77,34 +77,42 @@
             Ask on of our members how you can purchase breeding rights along with your new family
             member.
         </p>
-        <form action="index.html" method="GET">
-            <label for="Contact-email">Email</label>
-            <input type="email" id="contact-email" placeholder="Enter email">
+        <section>
+            <form action="index.html" method="GET">
+                <div>
+                    <label for="Contact-email">Email</label>
+                    <input type="email" id="contact-email" placeholder="Enter email">
+                </div>
 
-            <label for="Name"> Name</label>
-            <input type="text" id="Name" placeholder="Enter Your Name">
+                <div>
+                    <label for="Name"> Name</label>
+                    <input type="text" id="Name" placeholder="Enter Your Name">
+                </div>
+
+                <div>
+                    <label for="Phone-number">Phone Number</label>
+                    <input type="tel" id="phone-number" placeholder="Enter Phone Number">
+                </div>
+
+                <div>
+                    <label for="message">Enter Yor Message</label>
+                    <textarea id="message" placeholder="Give Your Feedback"></textarea>
+                </div>
+                <label for="hear-select">How Did You Hear About Us ?</label>
+
+                <select name="referral" id="hear-select">
+                    <option value="Customer">Customer Referral</option>
+                    <option value="Social-Media">Social Media</option>
+                    <option value="Bully-Show">Bully Show</option>
+                    <option value="Employee">Employee Referral</option>
+                    <option value="Outside">Saw our Bullies in Person</option>
+
+                    <button type="submit">Submit Info</button>
 
 
-            <label for="Phone-number">Phone Number</label>
-            <input type="tel" id="phone-number" placeholder="Enter Phone Number">
-
-            <label for="message">Enter Yor Message</label>
-            <textarea id="message" placeholder="Give Your Feedback"></textarea>
-
-            <label for="hear-select">How Did You Hear About Us ?</label>
-
-            <select name="referral" id="hear-select">
-                <option value="Customer">Customer Referral</option>
-                <option value="Social-Media">Social Media</option>
-                <option value="Bully-Show">Bully Show</option>
-                <option value="Employee">Employee Referral</option>
-                <option value="Outside">Saw our Bullies in Person</option>
-
-                <button type="submit">Submit</button>
-
-
-            </select>
-        </form>
+                </select>
+            </form>
+        </section>
 
 
 
