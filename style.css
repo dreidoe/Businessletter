@@ -1,25 +1,41 @@
+:root{
+  --primary-color:#854ec2
+}
+
+
 header {
-  display:flex;
+  display: flex;
   font-size: 1em;
-  flex-direction:column-reverse;
-  background-color:grey;
-  
+  flex-direction: column-reverse;
+  background-color: grey;
+
 }
-h1{
-  display:flex;
-  align-items:center;
-  color: blue;
+
+h1 {
+  display: flex;
+  align-items: center;
+
 }
-ul{
-  display:flex;
+
+ul {
+  display: flex;
   flex-direction: row;
-  gap:2rem;
+  gap: 2rem;
 }
+
 main section {
-  display:flex;
+  display: flex;
   flex-direction: row;
-  gap:1rem;
+  gap: 1rem;
 }
-h2{
+
+h2 {
   color: blue;
 }
+
+.flex-center {
+  display: grid;
+  flex-direction: column;
+}
+
+
