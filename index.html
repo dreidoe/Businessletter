@@ -13,29 +13,26 @@
 
 <body>
 
-    <header class="flex items-center gap">
-        <div id="hero">
-            <h1>Bryant Bullies <br />
-                American XL & Standard Bullies</h1>
-            <img src="./images /bullylogo.jpg" alt="black and white standard american bully" />
-        </div>
-
-        <nav class="row">
-            <ul>
-                <li><a href="aboutus.html">About Us</a></li>
-                <li><a href="studs.html">Available Studs</a></li>
-                <li><a href="currentLitters.html">Current Litters</a></li>
-                <li><a href="pastLitters.html">Past Litters</a></li>
-                <li><a href="inquires.html">All Other Inquires</a></li>
-            </ul>
-
-        </nav>
+    <header class=" flex bg-primary justify-center color">
+        <h1>Bryant Bullies
+            American XL & Standard Bullies</h1>
     </header>
-    <main>
-        <section class="flex-center bg-alternate">
-            <h2>Bryant Bullies Mission</h2>
 
-            <p>Here out Bryant Bullies our mission is to provide customers with not a dog, but a family member. We
+    <main>
+        <div id="hero" class="flex item-center justify-center flex-column white">
+            <section class="bg-translucent">
+                <h2 class=" flex items-center">Sign Up For Our Newsletter!</h2>
+                <form class="flex flex-column">
+                    <label for="email" class="sr-only">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email">
+                    <button class="button" type="submit">Sign Up</button>
+                </form>
+            </section>
+        </div>
+        <section class=" bg-secondary">
+            <h2 class="color">Bryant Bullies Mission</h2>
+            <p class="color">Here out Bryant Bullies our mission is to provide customers with not a dog, but a family
+                member. We
                 value
                 relationships, and do everything in our power to ensure our customers needs are met in any way we
                 can help
@@ -52,84 +49,79 @@
                 simply
                 phenomenal to put it lightly. From structure to behavior we have the best bullies on the market.
             </p>
+            <div class="color">
+                <section class=" flex row justify-center">
+                    <h2>Family Photos</h2>
+                    <img src="./images /jadenadrian.jpeg" alt=" Female American Bully blue and white" height="250"
+                        width="200">
+                    <img src="./images /jadenshy.jpeg" alt="Two Blue and White female American Bullies" height="250"
+                        width="200">
+                    <img src="./images /jadethebull.jpeg" alt="Toddler sitting on top of American Bully" height="250"
+                        width="200">
+                    <img src="./images /santanathebull.jpeg" alt="Brindle male american bull in kennel" height="250"
+                        width="200">
+            </div>
         </section>
-        <div class="flex-center">
-            <h2>Family Photos</h2>
-            <img src="./images /jadenadrian.jpeg" alt=" Female American Bully blue and white" height="250" width="200">
-            <img src="./images /jadenshy.jpeg" alt="Two Blue and White female American Bullies" height="250"
-                width="200">
-            <img src="./images /jadethebull.jpeg" alt="Toddler sitting on top of American Bully" height="250"
-                width="200">
-            <img src="./images /santanathebull.jpeg" alt="Brindle male american bull in kennel" height="250"
-                width="200">
-        </div>
+        <Section class=" flex justify-cente text-center bg-secondary">
+            <p class=" color">Here at Bryant Bullies once customers purchase a dog, all sales are final, and you must
+                sign a
+                contract before
+                we take any forms of payment. We do not immediately give breeding rights, in order to
+                breed your
+                Bully from Bryant Bullies
+                you must purchase breeding rights separately. In the event that a customer breeds one of
+                our
+                dogs without purchasing the rights
+                Bryant Bullies reserves the right to take legal action and seize any and all profits from the
+                litter.
+                Ask on of our members how you can purchase breeding rights along with your new family
+                member.
+            </p>
+        </Section>
+        <section class="bg-primary">
+        <form class="  bg-alternate text center margin">
+            <h2 class="text center color">How Did You Hear About Us ?</h2>
+            <div>
+                <label for="Contact-email" class="sr-only">Email</label>
+                <input type="email" id="contact-email" placeholder="Enter email">
+            </div>
+            <div>
+                <label for="Name" class="sr-only"> Name</label>
+                <input type="text" id="Name" placeholder="Enter Your Name">
+            </div>
+
+            <div>
+                <label for="Phone-number" class="sr-only">Phone Number</label>
+                <input type="tel" id="phone-number" placeholder="Enter Phone Number">
+            </div>
+            <div>
+                <label for="message" class="sr-only">Enter Yor Message</label>
+                <textarea id="message" placeholder="Give Your Feedback"></textarea>
+            </div>
+            <label for="hear-select" class="sr-only">How Did You Hear About Us ?</label>
+
+            <select name="pets" id="hear-select">
+                <option value="">Please Choose An Option</option>
+                <option value="Dog">Dog</option>
+                <option value="Cat">Cat</option>
+                <option value="Hamster">Hamster</option>
+                <option value="Parrot">Parrot</option>
+                <option value="Spider">Spider</option>
+                <option value="Goldfish">Goldfish</option>
+            </div>
+            </select>
+            <div>
+                <button type="submit" class="button color"> Submit Contact Info</button>
+            </div>
+        </form>
+
+
+        </Section>
+
+
+
+
+
+        </section>
+
     </main>
-
-    <footer class="flex-center">
-        <p>Here at Bryant Bullies once customers purchase a dog, all sales are final, and you must
-            sign a
-            contract before
-            we take any forms of payment. We do not immediately give breeding rights, in order to
-            breed your
-            Bully from Bryant Bullies
-            you must purchase breeding rights separately. In the event that a customer breeds one of
-            our
-            dogs without purchasing the rights
-            Bryant Bullies reserves the right to take legal action and seize any and all profits from the
-            litter.
-            Ask on of our members how you can purchase breeding rights along with your new family
-            member.
-        </p>
-        <section>
-            <form action="index.html" method="GET">
-                <div>
-                    <label for="Contact-email">Email</label>
-                    <input type="email" id="contact-email" placeholder="Enter email">
-                </div>
-
-                <div>
-                    <label for="Name"> Name</label>
-                    <input type="text" id="Name" placeholder="Enter Your Name">
-                </div>
-
-                <div>
-                    <label for="Phone-number">Phone Number</label>
-                    <input type="tel" id="phone-number" placeholder="Enter Phone Number">
-                </div>
-
-                <div>
-                    <label for="message">Enter Yor Message</label>
-                    <textarea id="message" placeholder="Give Your Feedback"></textarea>
-                </div>
-                <label for="hear-select">How Did You Hear About Us ?</label>
-
-                <select name="referral" id="hear-select">
-                    <option value="Customer">Customer Referral</option>
-                    <option value="Social-Media">Social Media</option>
-                    <option value="Bully-Show">Bully Show</option>
-                    <option value="Employee">Employee Referral</option>
-                    <option value="Outside">Saw our Bullies in Person</option>
-
-                    <button type="submit">Submit Info</button>
-
-
-                </select>
-            </form>
-        </section>
-
-
-
-
-        <small>© 2022 Bryant Bullies</small>
-
-
-
-    </footer>
-
-
-
-
-</body>
-
-
-</html>

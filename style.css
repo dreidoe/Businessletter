@@ -1,33 +1,56 @@
 :root {
   --primary-color: #495D88;
-  --secondary-color:#2E749F;
-  --tertiary-color:#008CAA;
-  --alternate-color:#00A2AB;}
-
-  
-
-
-
-.flex{
-  display:flex
+  --secondary-color: #2E749F;
+  --tertiary-color: #008CAA;
+  --alternate-color: #00A2AB;
 }
-  
+.text-center {
+  text-align: center;
 
-.items-center{
-  align-items:center
+
+}
+.padding{
+  padding:30px;
 }
 
+.flex {
+  display: flex;
+  align-items: center;
+
+}
+
+.items-center {
+  align-items: center;
+
+}
+.rounded{
+  border-radius:2px;
+}
+
+.justify-center {
+  justify-content: center;
+}
+.flex-column {
+  flex-direction: column;
+  
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.text-bold {
+  font-weight: bold;
+}
 .gap{
   gap:1rem;
 }
-
-.flex-center {
-  display:flex;
-  align-items:center
+.bg-secondary, .bg-secondary, .bg-tertiary{
+  color: #333;
+  padding:1rem;
 }
-
 .bg-primary{
-  background-color:var(--primary-color);
+  background-color: var(--primary-color);
 }
 .bg-secondary{
   background-color: var(--secondary-color);
@@ -35,14 +58,26 @@
 .bg-tertiary{
   background-color: var(--tertiary-color);
 }
-.bg-alternate{
-  background-color: var(--alternate-color);
+.color{
+  color:white;
 }
-#hero{
-  background-image:url(./bgpic.jpg);
-  
+
+
+
+
+
+
+
+
+#hero {
+  background-image: url(./bgpic.jpg);
+  background-size: cover;
+  background-position: cover;
+  height: 100vh;
+
 
 }
+
 .button {
   background-color: var(--accent-color);
   border: none;
@@ -50,6 +85,39 @@
   cursor: pointer;
   padding: 0.5rem 1rem;
 }
-.row{
+
+.row {
   flex-direction: row;
+}
+.column{
+  flex-direction: column;
+}
+.bg-translucent{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding:1rem;
+  color:white;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+.inline-block {
+  display: inline-block;
+}
+.text-no-underline {
+  text-decoration: none;
+}
+.text-dark {
+  color: #333;
+}
+.margin{
+  margin:0px;
 }
