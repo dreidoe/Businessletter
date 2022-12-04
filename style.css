@@ -16,7 +16,6 @@
 .flex {
   display: flex;
   align-items: center;
-
 }
 
 .items-center {
@@ -61,6 +60,29 @@
 .color{
   color:white;
 }
+header{
+  display:flex;
+  flex-direction: column;
+}
+nav ul {
+  display:flex;
+  flex-direction: row-reverse;
+  gap:3rem;
+  list-style:none;
+  margin-top: auto;
+  color:white;
+}
+.color{
+  color:white;
+}
+
+
+a{text-decoration: none; 
+}
+
+  
+
+
 
 
 
