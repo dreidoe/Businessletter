@@ -150,7 +150,7 @@ a{text-decoration: none;
   }
 
   .flex-row--sm {
-    flex-direction:column;
+    flex-direction: column;
   }
   .width-sm{
     max-width:auto;
@@ -166,11 +166,10 @@ a{text-decoration: none;
     height: 50vh;
     background-repeat: no-repeat;
     background-color: #2E749F;
-    
-
-  
-  
-
-  
-  }
+     }
 }
+@media screen and (min-width: 1080px) {
+
+}
+
+
