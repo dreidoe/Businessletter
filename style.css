@@ -143,3 +143,7 @@ a{text-decoration: none;
 .margin{
   margin:0px;
 }
+
+@media <=844px {
+
+}
