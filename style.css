@@ -144,7 +144,7 @@ a{text-decoration: none;
   margin:0px;
 }
 
-@media screen and (min-width: 390px) {
+@media screen and (max-width: 390px) {
   .flex-sm {
     display: flex;
   }
@@ -159,7 +159,7 @@ a{text-decoration: none;
     background-size: center;
     background-position: contain;
   }
-  #hero {
+  .hero {
     background-image: url(./bgpic.jpg);
     background-size: contain;
     background-position: center;
@@ -168,8 +168,6 @@ a{text-decoration: none;
     background-color: #2E749F;
      }
 }
-@media screen and (min-width: 1080px) {
 
-}
 
 
