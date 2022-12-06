@@ -144,6 +144,33 @@ a{text-decoration: none;
   margin:0px;
 }
 
-@media <=844px {
+@media screen and (min-width: 390px) {
+  .flex-sm {
+    display: flex;
+  }
 
+  .flex-row--sm {
+    flex-direction:column;
+  }
+  .width-sm{
+    max-width:auto;
+  }
+  .img-sm{
+    background-size: center;
+    background-position: contain;
+  }
+  #hero {
+    background-image: url(./bgpic.jpg);
+    background-size: contain;
+    background-position: center;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-color: #2E749F;
+    
+
+  
+  
+
+  
+  }
 }
