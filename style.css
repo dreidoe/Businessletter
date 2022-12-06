@@ -168,6 +168,26 @@ a{text-decoration: none;
     background-color: #2E749F;
      }
 }
+@media screen and (max-width: 1080px) {
 
 
+.hero {
+  background-image: url(./bgpic.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  
+   }
+   .form-lg{
+    display:flex;
+    align-items: center;
+    width: max-content;
+    flex-direction: column;
+   }
+   .margin-lg{
+    margin: auto;
+   }
 
+
+  }
