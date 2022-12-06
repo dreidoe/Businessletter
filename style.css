@@ -94,7 +94,7 @@ a{text-decoration: none;
 #hero {
   background-image: url(./bgpic.jpg);
   background-size: cover;
-  background-position: cover;
+  background-position: center;
   height: 100vh;
 
 
